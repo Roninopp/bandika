@@ -81,9 +81,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [FANTASTIC THE MANAGER](https://te.legra.ph/file/9012a958e07362727ae19.jpg) 」────
+────「 [nezuko THE MANAGER](https://te.legra.ph/file/9012a958e07362727ae19.jpg) 」────
 ʜᴇʏ! {}
-ɪ ᴀᴍ FANTASTIC ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜp ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀ ʟᴏᴛ ᴏғ sᴘᴇᴄɪᴀʟɪᴛʏ.
+ɪ ᴀᴍ nezuko ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜp ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀ ʟᴏᴛ ᴏғ sᴘᴇᴄɪᴀʟɪᴛʏ.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 I have lots of handy features such as:
 ‣ `「Warning system」`
@@ -100,32 +100,32 @@ I have lots of handy features such as:
 buttons = [
     [
         InlineKeyboardButton(
-            text="💖 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙂𝙍𝙊𝙐𝙋 💖", url="https://t.me/FANTASTICFIGHTERBOT?startgroup=new"),
+            text="💖 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙂𝙍𝙊𝙐𝙋 💖", url="https://t.me/Kenzo_manegment_bot?startgroup=new"),
     ],
     [                  
                        InlineKeyboardButton(
                              text="SUPPORT🤵",
-                             url=f"https://t.me/liu_WULANG_MONKES"),
+                             url=f"https://t.menazukosupport"),
                        InlineKeyboardButton(
                              text="UPDATES💁",
-                             url=f"https://t.me/tag_op/3"),
+                             url=f"https://t.me/paradise245"),
     ],
     [
 InlineKeyboardButton(
                              text="G-LOGS🖥",
-                             url=f"https://t.me/op_bot_fan"),
+                             url=f"https://t.me/paradise245"),
 
         InlineKeyboardButton(
-              text="𖣘Commands",
+              text="Commands",
               callback_data="help_back"),
         InlineKeyboardButton(
-              text="About✨me",
+              text="Aboutme",
               callback_data="shukurenai_"),   
     ],
     [
         InlineKeyboardButton(
-            text="ＯＦＦＩＣＡＬ𝒄𝒉𝒂𝒏𝒏𝒆𝒍", 
-            url=f"https://t.me/RoninXJin_updates"),
+            text="𝒄𝒉𝒂𝒏𝒏𝒆𝒍", 
+            url=f"https://t.me/paradise245"),
     ],
 
 ]
@@ -136,14 +136,14 @@ Click on the button bellow to get description about specifics command."""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """Contact to **@DushmanxRonin**"""
-HELP_IMG = "https://te.legra.ph/file/4789bb3e07507c35248c5.jpg"
-GROUP_IMG = "https://telegra.ph/file/a537738bfac3c85ab919d.jpg"
+HELP_IMG = "https://telegra.ph/file/1669c5238f83ed54175ab.jpg"
+GROUP_IMG = "https://telegra.ph/file/1669c5238f83ed54175ab.jpg"
 
-PM_IMG = ( "https://te.legra.ph/file/9012a958e07362727ae19.jpg",
-           "https://te.legra.ph/file/4789bb3e07507c35248c5.jpg",
-           "https://te.legra.ph/file/9012a958e07362727ae19.jpg",
-           "https://te.legra.ph/file/f3b977361cec62f89ec3d.jpg",
-           "https://te.legra.ph/file/a524868f792bca01aaf7c.jpg", )
+PM_IMG = ( "https://telegra.ph/file/1669c5238f83ed54175ab.jpg",
+           "https://telegra.ph/file/1669c5238f83ed54175ab.jpg",
+           "https://telegra.ph/file/1669c5238f83ed54175ab.jpg",
+           "https://telegra.ph/file/1669c5238f83ed54175ab.jpg",
+           "https://telegra.ph/file/1669c5238f83ed54175ab.jpg", )
 
 
 IMPORTED = {}
@@ -266,8 +266,8 @@ def start(update: Update, context: CallbackContext):
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="✧ ADD+ME 𖣘", url=f"https://t.me/FANTASTICFIGHTERBOT?startgroup=new"),
-                  InlineKeyboardButton(text="✧ Updates 𖣘", url=f"https://t.me/RoninXjin_updates"),
+                  InlineKeyboardButton(text= ADDME", url=f"https://t.me/@enzo_manegment_bot?startgroup=new"),
+                  InlineKeyboardButton(text="Updates", url=f"https://t.me/paradise245"),
                   ]
                 ]
             ),
@@ -400,7 +400,7 @@ def shukurenai_about_callback(update, context):
     query = update.callback_query
     if query.data == "shukurenai_":
         query.message.edit_text(
-            text="๏ I'm *𝑭𝑨𝑵𝑻𝑨𝑺𝑻𝑰𝑪*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *nezuko*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -481,8 +481,8 @@ def shukurenai_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="https://t.me/liu_WULANG_MONKES"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/liu_WULANG_MONKES"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/nazukosupport"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/paradise245"),
                  ],
                  [
                     InlineKeyboardButton(text="Go🙅Back", callback_data="shukurenai_"),
